@@ -1,0 +1,29 @@
+{
+  "name": "sahil-colorify-logs",
+  "version": "1.0.0",
+  "description": "a library to colorify your console logs with emojis",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare":"npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil-kachhap/colorify_logs.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Sahil Kachhap <sahil.kachhap111989@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sahil-kachhap/colorify_logs/issues"
+  },
+  "homepage": "https://github.com/Sahil-kachhap/colorify_logs#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
